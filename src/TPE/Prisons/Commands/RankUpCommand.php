@@ -39,7 +39,7 @@ class RankUpCommand extends Command {
         $nextRank = $rank;
         $nextRank++;
 
-        if($nextRank === "af") {
+        if($nextRank === "aa") {
             $sender->sendMessage($this->messages->get("max-rank"));
             return false;
         }
